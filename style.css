@@ -1,0 +1,39 @@
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.timer, .stopwatch {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1883db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#timerButtons, #stopwatchButtons {
+    margin-top: 10px;
+}
+
+#stopwatchDisplay {
+    font-size: 36px;
+}
